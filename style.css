@@ -67,7 +67,7 @@ h3{
 .donateToday{
     height: 90vh;
     padding: 0 220px;
-
+    margin-top: 50px;
 }
 .donateToday .donateTodayTitle{
     margin-top: -95px;
@@ -172,9 +172,6 @@ h3{
 }
 /* latest activity section ends  */
 
-
-
-
 /* getUpdates section starts  */
 .updateDesc{
     padding: 0 300px;
@@ -188,21 +185,31 @@ h3{
 .updateInput input{
     display: inline-block;
 }
+.updateInput form{
+    width: 100%;
+    height: fit-content;
+}
 .updateInput input[type="email"]{
     padding: 10px 20px;
     border: none;
     outline: none;
+    width: 50%;
+    height: 60px;
     background: #f9f9f9;
     color: #555;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-.updateInput .Subscribe{
-    padding: 5.5px 10px;
-    text-decoration: none;
+.updateInput input[type="submit"]{
+    padding: 10px 20px;
+    width: 20%;
+    height: 60px;
+    border: 0;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
     background: #008E48;
     color: #fff;
-    border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
